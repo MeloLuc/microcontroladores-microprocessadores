@@ -1,0 +1,13 @@
+# Ignorar pastas de compilação e binários gerados pelo MPLAB X
+**/build/
+**/dist/
+**/.generated_files/
+
+# Ignorar configurações locais (que só funcionam no meu computador)
+**/nbproject/private/
+**/nbproject/Makefile-*
+**/nbproject/Package-*
+
+# Arquivos de log e debug
+*.mcl
+*.core
